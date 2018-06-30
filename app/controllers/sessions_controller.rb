@@ -19,7 +19,6 @@ class SessionsController < ApplicationController
       flash[:success] = "You are now logged in!"
 
       redirect_to root_path
-
     else
       render "new"
     end
