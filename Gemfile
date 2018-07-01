@@ -38,6 +38,10 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'
 
 
+# add in our admin panel
+gem 'devise'
+gem 'activeadmin'
+
 
 
 
